@@ -39,7 +39,6 @@ const CarDetails = () => {
   useEffect(()=>{
     setCar(cars.find(car => car._id === id))
   },[cars, id])
-  
 
   return car ? (
     <div className='px-6 md:px-16 lg:px-24 xl:px-32 mt-16'>
